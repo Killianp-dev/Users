@@ -1,0 +1,24 @@
+.idea/
+db.sqlite3
+__pycache__/
+env/
+.env
+run_server.sh
+
+# echo "# Users" >> README.md
+# git init
+# git add .
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/Killianp-dev/#Users.git
+# git push -u origin main
+# git status --ignored -----> fichiers ignorés + suivis
+# git status --ignored --short -----> fichiers ignorés
+# supprimer un fichier suivi : 
+ # git rm --cached src/run_server.sh -----> 
+ # git commit -m "Stop tracking fichier.txt and add to .gitignore"
+ # git push
+
+
+
+
