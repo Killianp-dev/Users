@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-</head>
-<body>
-    <h1>Bienvenue {{ user.email }} !</h1>
-</body>
-</html>
+{% extends "account/base_entrance.html" %}
+{% load i18n %}
+{% load allauth account %}
+
+{% block head_title %}
+{% endblock head_title %}
+
+{% block content %}
+<p>Vous êtes connecté en tant que {{ user.email }}</p>
+{% endblock content %}
+
+{% block extra_body %}
+{% endblock %}

@@ -10,7 +10,7 @@ run_server.sh
 # git add .
 # git commit -m "first commit"
 # git branch -M main
-# git remote add origin https://github.com/Killianp-dev/#Users.git
+# git remote add origin https://github.com/Killianp-dev/Users.git
 # git push -u origin main
 # git status --ignored -----> fichiers ignorés + suivis
 # git status --ignored --short -----> fichiers ignorés

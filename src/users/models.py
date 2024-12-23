@@ -92,18 +92,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     REQUIRED_FIELDS = []
 
     def __str__(self):
-        """Returns the string representation of the user, which is the email address.
-
-        Returns:
-            str: The user's email address.
-        """
         return self.email
 
     class Meta:
-        """Meta options for the CustomUser model.
-
-        Options:
-            verbose_name (str): The singular name to use for this model in the admin
-                interface. Defaults to 'utilisateur'.
-        """
         verbose_name = "utilisateur"
